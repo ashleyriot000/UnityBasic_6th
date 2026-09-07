@@ -21,6 +21,7 @@ public class PlayerDetector : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log($"{other.transform.root.gameObject.name}({other.transform.root.tag})");
         if (other.transform.root.tag != "Player")
             return;
 

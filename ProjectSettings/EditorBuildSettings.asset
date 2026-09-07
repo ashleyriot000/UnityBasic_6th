@@ -9,8 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/UnityBasic.unity
     guid: 5379d35164d0406418d6c401e9511766
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/UnityPhysics.unity
+    guid: 2ccd4b51c78e3f74cbc419db0a244bb4
+  - enabled: 1
+    path: Assets/Scenes/Ex01.unity
+    guid: f67d4b7d014e5d44cb2b6a9c9f369cec
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
