@@ -7,6 +7,8 @@ public class BulletMover : MonoBehaviour
     public float lifeTime = 5f;
     private float remainLife;
 
+    public bool selfDestroy = true;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -24,7 +26,7 @@ public class BulletMover : MonoBehaviour
 
     private void Update()
     {
-        if (remainLife < Time.time)
+        if (selfDestroy && remainLife < Time.time)
             Destroy(gameObject);
     }
 
