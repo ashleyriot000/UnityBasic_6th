@@ -155,6 +155,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BulletMover
   rb: {fileID: 0}
-  power: 1000
+  power: 300
   lifeTime: 5
   selfDestroy: 0
