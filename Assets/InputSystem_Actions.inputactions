@@ -50,7 +50,7 @@
                     "name": "Crouch",
                     "type": "Button",
                     "id": "27c5f898-bc57-4ee1-8800-db469aca5fe3",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false,
@@ -60,7 +60,7 @@
                     "name": "Jump",
                     "type": "Button",
                     "id": "f1ba0d36-48eb-4cd5-b651-1c94a6531f70",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false,
@@ -70,7 +70,7 @@
                     "name": "Previous",
                     "type": "Button",
                     "id": "2776c80d-3c14-4091-8c56-d04ced07a2b0",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false,
@@ -88,12 +88,12 @@
                 },
                 {
                     "name": "Sprint",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "641cd816-40e6-41b4-8c3d-04687c349290",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false,
+                    "initialStateCheck": true,
                     "priority": 0
                 },
                 {
@@ -130,6 +130,16 @@
                     "name": "GearInvert",
                     "type": "Button",
                     "id": "2ee98e13-df65-4988-bb48-e2afcf8ab64a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "9e151284-b2fc-4369-beaa-d1f93bc72126",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -575,6 +585,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "GearInvert",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "069bb4d3-ba52-4879-85dd-bf8093688b8a",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
