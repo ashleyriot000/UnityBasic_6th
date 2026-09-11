@@ -97,7 +97,7 @@
                     "priority": 0
                 },
                 {
-                    "name": "Space",
+                    "name": "RapidFire",
                     "type": "Button",
                     "id": "bd86bfd6-d63c-43db-943f-fe71074537cc",
                     "expectedControlType": "",
@@ -547,11 +547,11 @@
                 {
                     "name": "",
                     "id": "17a9d0a5-a1de-46de-b6af-9a4c36aacfa7",
-                    "path": "<Keyboard>/space",
+                    "path": "<Keyboard>/leftAlt",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Space",
+                    "action": "RapidFire",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
